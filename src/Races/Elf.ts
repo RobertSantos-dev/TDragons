@@ -18,7 +18,7 @@ export default class Elf extends Race {
     return this._instancesNum;
   }
 
-  get maxLifePoints(): number {
+  public get maxLifePoints(): number {
     return this._maxLifePoints;
   }
 }
